@@ -22,7 +22,7 @@ export function ListingCard({
     <div className="flex flex-col">
       <div className="relative h-72">
         <Image
-          src={`https://cvcnrwrxmxifhzdwejub.supabase.co/storage/v1/object/public/images/${imagePath}`}
+          src={`https://ebpjnvddtoofdlnfoivb.supabase.co/storage/v1/object/public/images/${imagePath}`}
           alt="Image of house"
           fill
           className="rounded-lg h-full object-cover"
@@ -30,7 +30,7 @@ export function ListingCard({
       </div>
       <Link href={"/"} className="mt-2">
         <h3 className="font-medium text-base">
-          {country?.label} {country?.region}
+          {country?.label} {" / "} {country?.region}
         </h3>
         <p className="text-muted-foreground text-sm line-clamp-2 ">
           {description}
