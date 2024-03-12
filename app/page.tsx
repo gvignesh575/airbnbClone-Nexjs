@@ -71,7 +71,10 @@ async function ShowItems({
     <>
       {data.length === 0 ? (
         <>
-          <NoItems />
+          <NoItems
+            description="Please check a other category or create your own listing!"
+            title="Sorry no listings found for this category found..."
+          />
         </>
       ) : (
         <>
