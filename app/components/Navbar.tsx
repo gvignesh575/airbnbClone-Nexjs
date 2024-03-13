@@ -19,9 +19,7 @@ const Navbar = () => {
             alt="Mobile logo"
           />
         </Link>
-        <div className="rounded-full border px-5 py-2">
-          <h1>Hello from the search</h1>
-        </div>
+
         <UserNav />
       </div>
     </nav>
