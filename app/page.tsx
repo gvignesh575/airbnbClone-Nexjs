@@ -61,7 +61,7 @@ export default function Home({
   };
 }) {
   return (
-    <div className="container mx-auto px-5 lg:px-10">
+    <div className="container mx-auto px-5 lg:px-10 pb-14">
       <MapFilterItems />
       <Suspense key={searchParams?.filter} fallback={<SkeletonLoading />}>
         <ShowItems searchParams={searchParams} />
