@@ -43,7 +43,7 @@ const UserNav = async () => {
           <>
             <DropdownMenuItem>
               <form action={createHomewithId} className="w-full">
-                <button type="sumbit" className="w-full text-start">
+                <button type="submit" className="w-full text-start">
                   Airbnb your Home
                 </button>
               </form>

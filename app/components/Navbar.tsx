@@ -3,6 +3,7 @@ import Link from "next/link";
 import DesktopLogo from "../../public/airbnb-desktop.png";
 import MobileLogo from "../../public/airbnb-mobile.webp";
 import UserNav from "./UserNav";
+import { SearchModalComponent } from "./SearchComponent";
 const Navbar = () => {
   return (
     <nav className="w-full border-b">
@@ -19,6 +20,8 @@ const Navbar = () => {
             alt="Mobile logo"
           />
         </Link>
+
+        <SearchModalComponent />
 
         <UserNav />
       </div>
