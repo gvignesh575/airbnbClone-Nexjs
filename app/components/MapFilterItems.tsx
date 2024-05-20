@@ -20,11 +20,11 @@ const MapFilterItems = () => {
 
   return (
     <div className="flex items-center justify-center gap-x-10 mt-5 w-full overflow-x-scroll no-scrollbar">
-      {categoryItems.map((item) => (
-        <>
+      {categoryItems.map((item,index) => (
+        
           <Link
             href={pathname + "?" + createQueryString("filter", item.name)}
-            key={item.id}
+            key={index}
             className={cn(
               search === item.name
                 ? "border-b-2 border-black pb-2 flex-shrink-0"
@@ -43,7 +43,7 @@ const MapFilterItems = () => {
             </div>
             <p className="text-xs font-medium">{item.title}</p>
           </Link>
-        </>
+      
       ))}
     </div>
   );

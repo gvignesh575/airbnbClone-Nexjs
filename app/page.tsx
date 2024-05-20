@@ -97,9 +97,9 @@ async function ShowItems({
       ) : (
         <>
           <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-            {data.map((item) => (
+            {data.map((item, index) => (
               <ListingCard
-                key={item.id}
+                key={index}
                 description={item.description as string}
                 imagePath={item.photo as string}
                 location={item.country as string}
