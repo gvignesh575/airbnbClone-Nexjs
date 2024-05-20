@@ -128,3 +128,29 @@ function SkeletonLoading() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+// KINDE_CLIENT_ID=6314d481970c4f69b5bb9865bc465741
+// KINDE_CLIENT_SECRET=hBMc4I2XWuLhaLzvPhnXwO2XxyRY8pHLxrHaU3d1DW56iEUKMtSa
+// KINDE_ISSUER_URL=https://airbnbprojectnextjs.kinde.com
+// KINDE_SITE_URL=http://localhost:3000
+// KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
+// KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/api/auth/creation
+
+
+// airbnbclone123
+
+// DATABASE_URL="postgres://postgres.ebpjnvddtoofdlnfoivb:gvigneshProject@aws-0-ap-south-1.pooler.supabase.com:6543/postgres?pgbouncer=true&connection_limit=1"
+// DIRECT_URL="postgres://postgres.ebpjnvddtoofdlnfoivb:gvigneshProject@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+// SUPABASE_URL=https://ebpjnvddtoofdlnfoivb.supabase.co
+
+
+// SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVicGpudmRkdG9vZmRsbmZvaXZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAwOTQxODMsImV4cCI6MjAyNTY3MDE4M30.mB7F5U7EjkLKculCmCcinL2mJoUYqeQflAvMHEbV01s
